@@ -7,7 +7,10 @@
           <br />
           <input placeholder="Password" type="password" v-model="password" />
           <br />
-          <button type="submit">Login</button>
+          <button type="submit" class="mb-2">Login</button>
+         
+          <a href="#" type="button" data-toggle="modal" data-target="#exampleModal"  style="color:white; text-decoration:none;">Register an account</a>
+        
         </form>
   
         <form @submit.prevent="signup">

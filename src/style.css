@@ -1,31 +1,27 @@
 * {
-  font-family: Avenir;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
   margin: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .login-page {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(
-    180deg,
-    rgba(117, 84, 160, 1) 7%,
-    rgba(117, 84, 160, 1) 17%,
-    rgba(106, 95, 168, 1) 29%,
-    rgba(99, 103, 174, 1) 44%,
-    rgba(87, 116, 184, 1) 66%,
-    rgba(70, 135, 198, 1) 83%,
-    rgba(44, 163, 219, 1) 96%,
-    rgba(22, 188, 237, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background-color: dimgray;
+  
 }
 .card {
-  width: 200px;
+  width: 500px;
   position: relative;
-  left: calc(50vw - 100px);
+  top: 100px;
+  margin: auto;
   text-align: center;
-  padding-top: 6vw;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #3280a4;
+
 }
 .title {
   padding-top: 32px;
@@ -35,14 +31,17 @@ body {
 }
 input {
   width: calc(100% - 16px);
-  margin-top: 12px;
+  margin-top: 25px;
   padding: 8px;
   background-color: #e6f7ff;
   outline: none;
   border: 1px solid #e6f7ff;
 }
 button {
-  margin-top: 12px;
+  margin-top: 40px;
   width: 100%;
   padding: 8px;
+  color:white;
+  border: none;
+  background-color: dimgray;
 }
