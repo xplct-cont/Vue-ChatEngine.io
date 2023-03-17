@@ -1,6 +1,6 @@
 <script setup>
-import AuthPage from "./pages/AuthPage/index.vue";
-import ChatsPage from "./pages/ChatsPage/index.vue";
+import AuthPage from "./AuthPage/index.vue";
+import ChatsPage from "./ChatsPage/index.vue";
 </script>
 
 <template>
