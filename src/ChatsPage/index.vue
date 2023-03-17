@@ -1,5 +1,5 @@
 <template>
-    <div style="height: 100vh; font-family: sans-serif;">
+    <div style="height: 100vh; ">
       <PrettyChatWindow
         :projectId="projectId"
         :username="username"
@@ -13,7 +13,7 @@
     width: 32px;
     position: relative;
     bottom: 22px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   </style>
   

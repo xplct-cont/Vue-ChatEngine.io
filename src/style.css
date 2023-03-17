@@ -5,13 +5,13 @@ body {
   margin: 0px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.login-page {
+/* .login-page {
   width: 100vw;
   height: 100vh;
-  background-color: dimgray;
+  background-color: rgb(225, 225, 225);
   
-}
-.card {
+} */
+/* .card {
   width: 500px;
   position: relative;
   top: 100px;
@@ -22,7 +22,7 @@ body {
   padding-right: 20px;
   background-color: #3280a4;
 
-}
+} */
 .title {
   padding-top: 32px;
   font-size: 22px;
@@ -37,11 +37,18 @@ input {
   outline: none;
   border: 1px solid #e6f7ff;
 }
+
 button {
   margin-top: 40px;
   width: 100%;
   padding: 8px;
   color:white;
   border: none;
-  background-color: dimgray;
 }
+
+
+
+
+
+
+

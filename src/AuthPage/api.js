@@ -1,3 +1,4 @@
+import '../App.css'
 import axios from "axios";
 
 const loginRest = async (username, secret) => {
