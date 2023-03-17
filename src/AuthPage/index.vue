@@ -35,14 +35,14 @@
        </div>
     </div>
 
-     
+
       </div>
     </div>
   </template>
   
   <script>
   import { loginRest, signupRest } from "./api";
-  
+
   export default {
     data() {
       return {

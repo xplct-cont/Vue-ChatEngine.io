@@ -1,3 +1,4 @@
+
 <script setup>
 import AuthPage from "./AuthPage/index.vue";
 import ChatsPage from "./ChatsPage/index.vue";
