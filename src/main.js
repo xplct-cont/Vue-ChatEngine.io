@@ -8,6 +8,7 @@ import "bootstrap-icons/font/bootstrap-icons.css"
 createApp(App).mount('#app')
 
 
+
   // Get the modal
   const modal = document.getElementById("myModal");
 
@@ -32,4 +33,5 @@ createApp(App).mount('#app')
     if (event.target == modal) {
       modal.style.display = "none";
     }
-  }
+}
+ 
