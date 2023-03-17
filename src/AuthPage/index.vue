@@ -1,14 +1,14 @@
 <template>
     <div class="login-page mx-auto col-md-4 p-3" style="margin-top: 100px;">
-      <div class="card bg-secondary p-2">
+      <div class="card p-2 ml-2" style="background: linear-gradient(60deg, #29323c 0%, #485563 100%)">
         <form @submit.prevent="login">
-          <div class="title mb-2">Login</div>
-          <input placeholder="Username" class="mb-3 bg-light rounded" type="text" v-model="username" />
+          <div class="title mb-3 ml-2">Login</div>
+          <input placeholder="Username" class="mb-3 ml-2 bg-light rounded" type="text" v-model="username" />
           <br />
-          <input placeholder="Password" class="mb-5 bg-light rounded" type="password" v-model="password" />
+          <input placeholder="Password" class="mb-5 ml-2 bg-light rounded" type="password" v-model="password" />
           <br />
-          <button type="submit" class="mb-2 btn bg-dark text-light">Login</button>
-          <a href="#" type="button" id="openModalBtn"  style="color:white; text-decoration:none; font-size: 12px;">Register an account</a>
+          <div class="d-flex justify-content-end"><button type="submit" class="mb-2 btn bg-primary col-md-3 text-light">Login</button></div> <br>
+          <a href="#" type="button" id="openModalBtn"  style="color:white; text-decoration:none; margin-left: 10px; margin-bottom: 10px; font-size: 12px;">Register an account</a>
         </form>
         <div> 
    </div>
